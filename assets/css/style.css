@@ -1,3 +1,133 @@
 body {
-    background-color: purple;
+    height: 900px;
+    background-image: linear-gradient(#8A7B99, #E5CDFF);
+}
+
+.contactLink {
+    float: right;
+    margin: auto;
+}
+
+.contact-bellotaText{
+    font-family: "Bellota Text", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+}
+nav a {
+    color: black;
+    text-decoration: none;
+}
+nav a:hover {
+    color: #7B16D6;
+    text-decoration: none;
+}
+
+.imgContainer {
+    width: 100%;
+    text-align: center; /* Centers inline elements */
+    align-items: center;
+    display: flex;      /* Optional: For additional alignment flexibility */
+    justify-content: center; /* Centers content horizontally */
+}
+
+.img {
+    border-radius: 400px; /* Makes the image circular */
+    width: 200px;
+    margin: 0 auto; /* Centers the image horizontally */
+    display: block; /* Ensures the image behaves as a block-level element */
+}
+
+
+.menu{
+    margin-top: 60px;
+   display: flex;
+   flex-direction: column; /* Ensure buttons are arranged vertically */
+   align-items: center; /* Center buttons horizontally */
+}
+
+.menu section {
+    margin-bottom: 20px; /* Add spacing between sections */
+}
+
+.bookBttn {
+   margin: auto;
+   width: 750px;
+   padding: 10px;
+   text-align: center;
+   display: block;
+   background-color: #D3B1F7;
+   border: none;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#bellota-text-light {
+    font-family: "Bellota Text", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 25px;
+  }
+
+.instagramBttn{
+    font-family: fantasy, light;
+   font-size: 25px;
+    margin: auto;
+    width: 750px;
+    padding: 10px;
+   text-align: center;
+   display: block;
+   background-color: #D3B1F7;
+   border: none;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.galleryBttn {
+    font-family: 'Courier New', Courier, monospace;
+   font-size: 25px;
+    margin: auto;
+    width: 750px;
+    padding: 10px;
+   text-align: center;
+   display: block;
+   background-color: #D3B1F7;
+   border: none;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.policyBttn {
+    font-family: 'Courier New', Courier, monospace;
+   font-size: 25px;
+   margin: auto;
+   width: 750px;
+   padding: 10px;
+   text-align: center;
+   display: block;
+   background-color: #D3B1F7;
+   border: none;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align: center; /* Ensures the content remains centered */
+    display: flex;      /* Enables Flexbox */
+    justify-content: center; /* Centers items horizontally */
+    align-items: center; /* Centers items vertically (if applicable) */
+    gap: 20px;           /* Adds spacing between the items */
+    padding: 10px;       /* Optional: Adds padding around the footer */
+    background-color: none; /* Optional: Footer background color */
+}
+
+.footer h3,
+.footer a {
+    margin: 0;            /* Removes default margin from h3 and anchor */
+    font-size: 16px;      /* Ensures uniform font size */
+    color: black;         /* Optional: Text color */
+    text-decoration: none; /* Removes underline from the link */
+}
+
+.footer a:hover {
+    color: #7B16D6;       /* Optional: Changes color on hover */
 }
