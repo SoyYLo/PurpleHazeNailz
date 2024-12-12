@@ -33,23 +33,29 @@ nav a:hover {
 .imgContainer {
     width: 100%;
     margin-top: 30px;
-    text-align: center; /* Centers inline elements */
+    text-align: center;
+    /* Centers inline elements */
     align-items: center;
-    display: flex;      /* Optional: For additional alignment flexibility */
-    justify-content: center; /* Centers content horizontally */
+    display: flex;
+    /* Optional: For additional alignment flexibility */
+    justify-content: center;
+    /* Centers content horizontally */
     padding-top: 15px;
 }
 
 .img {
-    border-radius: 400px; /* Makes the image circular */
+    border-radius: 400px;
+    /* Makes the image circular */
     width: 150px;
-    margin: 0 auto; /* Centers the image horizontally */
-    display: block; /* Ensures the image behaves as a block-level element */
+    margin: 0 auto;
+    /* Centers the image horizontally */
+    display: block;
+    /* Ensures the image behaves as a block-level element */
 }
 
 /*Policies text*/
 
-#policyText{
+#policyText {
     font-family: "Bellota Text";
     font-size: 45px;
     text-align: center;
@@ -58,12 +64,18 @@ nav a:hover {
 
 /*Booking text*/
 
-#bookText{
+#bookText {
     font-family: "Bellota Text";
     font-size: 25px;
     text-align: center;
     margin: 50px;
     font-weight: normal;
+}
+
+.main {
+    display: flex;
+   flex-direction: column; /* Ensure sections are arranged vertically */
+   align-items: center; /* Center sections horizontally */
 }
 
 .bookingContainer {
@@ -73,7 +85,7 @@ nav a:hover {
     text-align: center;
     font-family: "Bellota Text";
     font-weight: lighter;
-    font-size: 20px;  
+    font-size: 20px;
     word-wrap: break-word;
     vertical-align: middle;
     padding: 40px 20px;
@@ -96,7 +108,7 @@ nav a:hover {
     text-align: center;
     font-family: "Bellota Text";
     font-weight: lighter;
-    font-size: 20px;  
+    font-size: 20px;
     word-wrap: break-word;
     vertical-align: middle;
     padding: 40px 20px;
@@ -120,7 +132,7 @@ nav a:hover {
     text-align: center;
     font-family: "Bellota Text";
     font-weight: lighter;
-    font-size: 20px;  
+    font-size: 20px;
     word-wrap: break-word;
     vertical-align: middle;
     padding: 40px 20px;
@@ -138,23 +150,34 @@ nav a:hover {
     left: 0;
     bottom: 0;
     width: 100%;
-    text-align: center; /* Ensures the content remains centered */
-    display: flex;      /* Enables Flexbox */
-    justify-content: center; /* Centers items horizontally */
-    align-items: center; /* Centers items vertically (if applicable) */
-    gap: 250px;           /* Adds spacing between the items */
-    padding: 140px 20px 10px;       /* Optional: Adds padding around the footer */
-    background-color: none; /* Optional: Footer background color */
+    text-align: center;
+    /* Ensures the content remains centered */
+    display: flex;
+    /* Enables Flexbox */
+    justify-content: center;
+    /* Centers items horizontally */
+    align-items: center;
+    /* Centers items vertically (if applicable) */
+    gap: 250px;
+    /* Adds spacing between the items */
+    padding: 140px 20px 10px;
+    /* Optional: Adds padding around the footer */
+    background-color: none;
+    /* Optional: Footer background color */
     font-family: "Bellota Text", sans-serif;
 }
 
 .footer h3,
 .footer a {
-    margin: 0;            /* Removes default margin from h3 and anchor */
-    font-size: 20px;      /* Ensures uniform font size */
+    margin: 0;
+    /* Removes default margin from h3 and anchor */
+    font-size: 20px;
+    /* Ensures uniform font size */
     font-weight: lighter;
-    color: black;         /* Optional: Text color */
-    text-decoration: none; /* Removes underline from the link */
+    color: black;
+    /* Optional: Text color */
+    text-decoration: none;
+    /* Removes underline from the link */
 }
 
 /* Media Queries */
@@ -164,69 +187,101 @@ nav a:hover {
 /* inspect tool */
 @media only screen and (max-width: 1160px) {
     .footer {
-        gap: 90px;           /* Adds spacing between the items */
+        gap: 90px;
+        /* Adds spacing between the items */
     }
-  }
-
-  /* inspect tool */
-  @media only screen and (max-width: 830px) {
-    .footer {
-        gap: 70px;           /* Adds spacing between the items */
-    }
-  }
-
-
-
-  /* Policies */
-
-  @media only screen and (max-width: 830px) {
-    .bookingContainer{
-        width: 600px;
-    }
-    .cxlContainer{
-        width: 600px;
-    }
-    .payContainer{
-        width: 600px;
-    }
-  }
-
-  /* iphone SE */
-
-  @media only screen and (max-width: 375px) {
-  .navBar {
-    display: inline-block;
 }
-  }
 
-  @media only screen and (max-width: 375px) {
+/* inspect tool */
+@media only screen and (max-width: 830px) {
+    .footer {
+        gap: 70px;
+        /* Adds spacing between the items */
+    }
+}
+
+
+
+/* Policies */
+
+@media only screen and (max-width: 830px) {
+    .bookingContainer {
+        width: 600px;
+    }
+
+    .cxlContainer {
+        width: 600px;
+    }
+
+    .payContainer {
+        width: 600px;
+    }
+}
+
+/* iphone SE */
+
+@media only screen and (max-width: 375px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .navBar {
+        margin-left: 115px;
+    }
+
     .imgContainer {
         width: 100%;
-        margin: 30px 120px 30px;
-        display: flex;      /* Optional: For additional alignment flexibility */
-        justify-content: center; /* Centers content horizontally */
+        margin: 30px 0 30px 30px;
         padding-top: 50px;
-  }
     }
 
-    @media only screen and (max-width: 375px) {
-        #policyText{
-            text-align: center;
-            margin:40px 235px;
-        }
+    .main,
+    .bookingContainer,
+    .cxlContainer,
+    .payContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 300px;
+        margin-left: 30px;
     }
 
-    @media only screen and (max-width: 375px) {
-        #bookText{
-            text-align: center;
-            margin:40px 265px;
-        }
+
+    #policyText,
+    #bookText {
+        text-align: center;
+        margin: 20px 0 20px 30px;
     }
 
-    @media only screen and (max-width: 375px) {
-        .bookingContainer{
-           padding: 20px 10px;
-           width: 500px;
-           margin: 30px 47px;
-        }
+    #cxlText,
+    #paymentText {
+        text-align: center;
+        margin: 20px;
     }
+    .bookingContainer,
+    .cxlContainer,
+    .payContainer {
+        width: 100%;
+        max-width: 450px;
+        padding: 20px;
+        margin: 30px 0;
+    }
+
+    .footer {
+        gap: 15px;
+        padding: 20px;
+        margin-left: 20px;
+    }
+
+    .footer h3,
+    .footer a {
+        margin: 0;
+        font-size: 13px;
+    }
+}
