@@ -1,11 +1,12 @@
 body {
-    height: 900px;
+    height: 100%;
     background-image: linear-gradient(#8A7B99, #E5CDFF);
 }
 
 .contactLink {
     float: right;
     margin: auto;
+    padding-right: 15px;
     font-family: "Bellota Text", sans-serif;
     font-weight: 300;
     font-style: normal;
@@ -129,16 +130,16 @@ section a {
 }
 
 .footer {
-    position: fixed;
+    position: relative;
     left: 0;
-    bottom: 0;
+    bottom: 0px;
     width: 100%;
     text-align: center; /* Ensures the content remains centered */
     display: flex;      /* Enables Flexbox */
     justify-content: center; /* Centers items horizontally */
     align-items: center; /* Centers items vertically (if applicable) */
     gap: 250px;           /* Adds spacing between the items */
-    padding: 10px;       /* Optional: Adds padding around the footer */
+    padding: 400px 20px 10px;       /* Optional: Adds padding around the footer */
     background-color: none; /* Optional: Footer background color */
     font-family: "Bellota Text", sans-serif;
 }
