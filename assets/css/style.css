@@ -6,14 +6,13 @@ body {
 .contactLink {
     float: right;
     margin: auto;
-}
-
-.contact-bellotaText{
     font-family: "Bellota Text", sans-serif;
     font-weight: 300;
     font-style: normal;
-    font-size: 15px;
+    font-size: 20px;
+    font-weight: bold;
 }
+
 nav a {
     color: black;
     text-decoration: none;
@@ -25,10 +24,12 @@ nav a:hover {
 
 .imgContainer {
     width: 100%;
+    margin-top: 30px;
     text-align: center; /* Centers inline elements */
     align-items: center;
     display: flex;      /* Optional: For additional alignment flexibility */
     justify-content: center; /* Centers content horizontally */
+    padding-top: 15px;
 }
 
 .img {
@@ -65,12 +66,12 @@ nav a:hover {
     font-family: "Bellota Text", sans-serif;
     font-weight: 300;
     font-style: normal;
-    font-size: 25px;
+    font-size: 28px;
   }
 
 .instagramBttn{
     font-family: fantasy, light;
-   font-size: 25px;
+   font-size: 28px;
     margin: auto;
     width: 750px;
     padding: 10px;
@@ -83,7 +84,7 @@ nav a:hover {
 
 .galleryBttn {
     font-family: 'Courier New', Courier, monospace;
-   font-size: 25px;
+   font-size: 28px;
     margin: auto;
     width: 750px;
     padding: 10px;
@@ -96,7 +97,7 @@ nav a:hover {
 
 .policyBttn {
     font-family: 'Courier New', Courier, monospace;
-   font-size: 25px;
+   font-size: 28px;
    margin: auto;
    width: 750px;
    padding: 10px;
@@ -108,22 +109,25 @@ nav a:hover {
 }
 
 .footer {
-    position: relative;
+    position: fixed;
+    left: 0;
     bottom: 0;
     width: 100%;
     text-align: center; /* Ensures the content remains centered */
     display: flex;      /* Enables Flexbox */
     justify-content: center; /* Centers items horizontally */
     align-items: center; /* Centers items vertically (if applicable) */
-    gap: 20px;           /* Adds spacing between the items */
+    gap: 250px;           /* Adds spacing between the items */
     padding: 10px;       /* Optional: Adds padding around the footer */
     background-color: none; /* Optional: Footer background color */
+    font-family: "Bellota Text", sans-serif;
 }
 
 .footer h3,
 .footer a {
     margin: 0;            /* Removes default margin from h3 and anchor */
-    font-size: 16px;      /* Ensures uniform font size */
+    font-size: 20px;      /* Ensures uniform font size */
+    font-weight: lighter;
     color: black;         /* Optional: Text color */
     text-decoration: none; /* Removes underline from the link */
 }
@@ -131,3 +135,109 @@ nav a:hover {
 .footer a:hover {
     color: #7B16D6;       /* Optional: Changes color on hover */
 }
+
+/* Media Queries */
+
+/* FOOTER */
+
+ /* inspect tool */
+@media only screen and (max-width: 1261px) {
+    .footer {
+        gap: 150px;           /* Adds spacing between the items */
+    }
+  }
+
+  /* inspect tool */
+  @media only screen and (max-width: 1040px) {
+    .footer {
+        gap: 90px;           /* Adds spacing between the items */
+    }
+  }
+
+  /* iPad Mini */
+  @media only screen and (max-width: 769px) {
+    .footer {
+        gap: 35px;           /* Adds spacing between the items */
+    }
+  }
+
+  /* iPhone XR */
+  @media only screen and (max-width: 430px) {
+    .footer {
+        gap: 10px;           /* Adds spacing between the items */
+        padding-bottom: 20px;
+    }
+    .footer h3 {
+        font-size: 13px;
+    }
+    .footer a {
+        font-size: 13px;
+    }
+  }
+/* iPhone SE */
+  @media only screen and (max-width: 375px) {
+    .footer h3 {
+        font-size: 10px;
+    }
+    .footer a {
+        font-size: 10px;
+    }
+  }
+
+  /* BUTTONS */
+
+   /* inspect tool */
+  @media only screen and (max-width: 1040px) {
+    .bookBttn {
+        width: 650px;
+    }
+  }
+
+   /* inspect tool */
+  @media only screen and (max-width: 1040px) {
+    .instagramBttn {
+        width: 650px;
+    }
+  }
+
+   /* inspect tool */
+  @media only screen and (max-width: 1040px) {
+    .galleryBttn {
+        width: 650px;
+    }
+  }
+
+   /* inspect tool */
+  @media only screen and (max-width: 1040px) {
+    .policyBttn {
+        width: 650px;
+    }
+  }
+
+   /* iPhone XR */
+  @media only screen and (max-width: 430px), (max-length: 932px) {
+    .bookBttn {
+        width: 350px;
+    }
+  }
+
+   /* iPhone XR */
+  @media only screen and (max-width: 430px), (max-length: 932px) {
+    .instagramBttn {
+        width: 350px;
+    }
+  }
+
+   /* iPhone XR */
+  @media only screen and (max-width: 430px), (max-length: 932px) {
+    .galleryBttn {
+        width: 350px;
+    }
+  }
+
+   /* iPhone XR */
+  @media only screen and (max-width: 430px), (max-length: 932px) {
+    .policyBttn {
+        width: 350px;
+    }
+  }
