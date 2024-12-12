@@ -1,5 +1,6 @@
 body {
     height: 100%;
+    width: 100%;
     background-image: linear-gradient(#8A7B99, #E5CDFF);
 }
 
@@ -77,6 +78,7 @@ nav a:hover {
     vertical-align: middle;
     padding: 40px 20px;
     line-height: 2;
+    align-items: center;
 }
 
 #cxlText {
@@ -99,6 +101,7 @@ nav a:hover {
     vertical-align: middle;
     padding: 40px 20px;
     line-height: 2;
+    align-items: center;
 }
 
 #paymentText {
@@ -107,6 +110,7 @@ nav a:hover {
     text-align: center;
     margin: 50px;
     font-weight: normal;
+
 }
 
 .payContainer {
@@ -121,6 +125,7 @@ nav a:hover {
     vertical-align: middle;
     padding: 40px 20px;
     line-height: 2;
+    align-items: center;
 }
 
 #nonrefundFee {
@@ -185,3 +190,43 @@ nav a:hover {
         width: 600px;
     }
   }
+
+  /* iphone SE */
+
+  @media only screen and (max-width: 375px) {
+  .navBar {
+    display: inline-block;
+}
+  }
+
+  @media only screen and (max-width: 375px) {
+    .imgContainer {
+        width: 100%;
+        margin: 30px 120px 30px;
+        display: flex;      /* Optional: For additional alignment flexibility */
+        justify-content: center; /* Centers content horizontally */
+        padding-top: 50px;
+  }
+    }
+
+    @media only screen and (max-width: 375px) {
+        #policyText{
+            text-align: center;
+            margin:40px 235px;
+        }
+    }
+
+    @media only screen and (max-width: 375px) {
+        #bookText{
+            text-align: center;
+            margin:40px 265px;
+        }
+    }
+
+    @media only screen and (max-width: 375px) {
+        .bookingContainer{
+           padding: 20px 10px;
+           width: 500px;
+           margin: 30px 47px;
+        }
+    }
