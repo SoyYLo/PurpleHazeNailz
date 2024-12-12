@@ -51,6 +51,10 @@ nav a:hover {
     margin-bottom: 20px; /* Add spacing between sections */
 }
 
+section a {
+    text-decoration: none;
+}
+
 .bookBttn {
    margin: auto;
    width: 750px;
@@ -60,6 +64,10 @@ nav a:hover {
    background-color: #D3B1F7;
    border: none;
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.bookBttn:hover {
+    background-color: #bd84fb;
 }
 
 #bellota-text-light {
@@ -82,6 +90,10 @@ nav a:hover {
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.instagramBttn:hover {
+    background-color: #bd84fb;
+}
+
 .galleryBttn {
     font-family: 'Courier New', Courier, monospace;
    font-size: 28px;
@@ -95,6 +107,10 @@ nav a:hover {
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.galleryBttn:hover {
+    background-color: #bd84fb;
+}
+
 .policyBttn {
     font-family: 'Courier New', Courier, monospace;
    font-size: 28px;
@@ -106,6 +122,10 @@ nav a:hover {
    background-color: #D3B1F7;
    border: none;
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.policyBttn:hover {
+    background-color: #bd84fb;
 }
 
 .footer {
