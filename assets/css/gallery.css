@@ -1,0 +1,220 @@
+body {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(#8A7B99, #E5CDFF);
+}
+
+.navBar {
+    float: right;
+    margin: auto;
+    font-family: "Bellota Text", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding-right: 20px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #7B16D6;
+    text-decoration: none;
+}
+
+.gridContainer {
+    display: grid;
+    gap: 50px 50px;
+    grid-template-columns: auto auto;
+    background-color: none;
+    padding: 100px 20px 20px;
+    align-items: center;
+}
+
+.grid {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 0;
+    text-align: center;
+    font-family: "Bellota Text";
+    font-weight: lighter;
+    font-size: 40px;
+    word-wrap: break-word;
+    line-height: 2;
+}
+
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+}
+
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    /* Ensures the content remains centered */
+    display: flex;
+    /* Enables Flexbox */
+    justify-content: center;
+    /* Centers items horizontally */
+    align-items: center;
+    /* Centers items vertically (if applicable) */
+    gap: 250px;
+    /* Adds spacing between the items */
+    padding: 140px 20px 10px;
+    /* Optional: Adds padding around the footer */
+    background-color: none;
+    /* Optional: Footer background color */
+    font-family: "Bellota Text", sans-serif;
+}
+
+.footer h3,
+.footer a {
+    margin: 0;
+    /* Removes default margin from h3 and anchor */
+    font-size: 20px;
+    /* Ensures uniform font size */
+    font-weight: lighter;
+    color: black;
+    /* Optional: Text color */
+    text-decoration: none;
+    /* Removes underline from the link */
+}
+
+
+
+/* MEDIA Queries */
+
+/* inspect tool */
+@media only screen and (max-width: 1160px) {
+    .footer {
+        gap: 90px;
+        /* Adds spacing between the items */
+    }
+}
+
+
+@media only screen and (max-width: 830px) {
+    .footer {
+        gap: 70px;
+        /* Adds spacing between the items */
+    }
+}
+
+/* iphone SE */
+
+@media only screen and (max-width: 375px) {
+
+    .navBar {
+        display: flex;
+        /* Enables flexible layout */
+        justify-content: center;
+        /* Centers the items horizontally */
+        align-items: center;
+        /* Centers the items vertically if there's height */
+        flex-wrap: wrap;
+        /* Ensures items wrap properly on smaller screens */
+        text-align: center;
+        /* Centers the text in case items are inline-block */
+        width: 245px;
+        /* Ensures the navbar spans full width */
+        margin: 0 auto;
+        /* Centers the navbar container if it has a fixed width */
+        padding: 0;
+        /* Removes any default padding */
+    }
+
+    .img {
+        width: 250px;
+    }
+
+    .gridContainer {
+        gap: 50px 20px;
+        padding: 100px 10px 20px
+    }
+
+    .grid {
+        font-size: 25px;
+    }
+}
+
+.footer {
+    gap: 30px;
+    padding: 140px 20px 10px 80px
+}
+
+.footer h3,
+.footer a {
+    margin: 0;
+    font-size: 13px;
+
+}
+
+@media only screen and (max-width: 414px) {
+    .footer {
+        width: 600px;
+        gap: 30px;
+        padding: 140px 20px 10px 80px
+    }
+
+
+}
+
+/* samsung galaxy */
+
+@media only screen and (max-width: 360px) {
+    .navBar {
+        width: 40px;
+    }
+
+    .gridContainer {
+        padding: 100px 10px 20px 90px;
+    }
+
+    .footer {
+        padding: 140px 20px 10px 40px;
+    }
+}
+
+/* iPad Mini */
+
+@media only screen and (max-width: 768px) {
+    .navBar {
+        padding-right: 310px;
+    }
+
+    .footer {
+        gap: 70px;
+        padding: 140px 20px 10px 30px;
+    }
+}
+
+/* iPad Air */
+
+@media only screen and (max-width: 820px) {
+
+    .footer {
+        gap: 70px;
+    padding: 140px 20px 10px 0px;
+    }
+}
+
+/* iPad Pro */
+
+@media only screen and (max-width: 1024px) {
+
+    .footer {
+        gap: 70px;
+    padding: 140px 20px 10px 0px;
+    }
+
+}
