@@ -60,11 +60,6 @@ nav a:hover {
 
 }
 
-
-
-
-
-
 .gridContainer {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -133,12 +128,39 @@ width: 200px;
     max-width: 200px;
     max-height: 200px;
    margin-top: 20px;
-    padding-left: 20px;
+    
+  }
+  
+.img {
+    max-width: 200px;
+    max-height: 200px;
+   margin-top: 20px;
+   padding-left: 20px;
+}
+  .cardText {
+    padding-right: 1000px;
+    float: right;
   }
 
-  .cardText {
-    padding-right: 1100px;
+  .cardA {
+    padding-right: 900px;
     float: right;
+  }
+
+  .cardB {
+    float: right;
+    padding-right: 550px;
+    
+  }
+
+  .cardD {
+    float: right;
+    padding-right: 900px;
+    
+  }
+
+  .addOnList {
+    list-style-type:circle;
   }
 
 
