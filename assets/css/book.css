@@ -1,0 +1,145 @@
+body {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(#8A7B99, #E5CDFF);
+}
+
+.navBar {
+    float: right;
+    margin: auto;
+    font-family: "Bellota Text", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding-right: 20px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #7B16D6;
+    text-decoration: none;
+}
+
+.home {
+    padding-right: 10px;
+}
+
+.bio {
+    width: 40%;
+    height: 50%;
+    font-family: "Bellota Text", sans-serif;
+    padding-top: 90px;
+    float: left;
+    text-align: center;
+    margin-left: 110px;
+    padding-left: 10px;
+}
+
+.header {
+    font-size: 30px;
+}
+
+.aboutMe {
+    font-size: 20px;
+    padding-top: 40px;
+}
+
+
+.profileImg {
+    width: 300px;
+    border-radius: 170px;
+    float: right;
+    margin-top: 90px;
+    margin-right: 110px;
+
+}
+
+
+
+
+
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: none;
+    width: 100%;
+    row-gap: 20px;
+    align-items: center;
+    padding: 100px;
+    margin: 0 50px 0 50px;
+  }
+  
+  .gridContainer > img {
+    background-color: none;
+    border: 1px solid black;
+    font-size: 30px;
+    text-align: center;
+    width: 200px;
+  }
+
+  .greenFrench {
+width: 200px;
+  }
+
+  .serviceContainer {
+    background-color: #c8b1e0c0;
+    margin: auto;
+    width: 950px;
+    height: 350px;
+    text-align: center;
+    font-family: "Bellota Text";
+    font-weight: lighter;
+    font-size: 20px;
+    word-wrap: break-word;
+    vertical-align: middle;
+    padding: 0px 20px;
+    line-height: 2;
+    align-items: center;
+  }
+
+  section h1 {
+    margin-top: 0;
+    margin-bottom: 45px;
+    padding-top: 0;
+    font-size: 30px;
+  }
+
+  .p1 {
+    margin-bottom: 45px;
+  }
+
+  .column {
+    margin: auto;
+    align-items: center;
+    padding: 40px 40px;
+  }
+  .card {
+    background-color: #D3B1F7;
+    height: 250px;
+    font-family: "Bellota Text";
+    box-sizing: border-box;
+    align-content: flex-start;
+    margin: auto;
+  }
+
+  article img {
+    max-width: 200px;
+    max-height: 200px;
+   margin-top: 20px;
+    padding-left: 20px;
+  }
+
+  .cardText {
+    padding-right: 1100px;
+    float: right;
+    
+  }
+
+ 
