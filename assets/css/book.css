@@ -89,7 +89,7 @@ width: 200px;
   }
 
   .serviceContainer {
-    background-color: #c8b1e0c0;
+    background-color: #D3B1F7;
     margin: auto;
     width: 950px;
     height: 350px;
@@ -140,5 +140,41 @@ width: 200px;
     padding-right: 1100px;
     float: right;
   }
+
+
+  .footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    /* Ensures the content remains centered */
+    display: flex;
+    /* Enables Flexbox */
+    justify-content: center;
+    /* Centers items horizontally */
+    align-items: center;
+    /* Centers items vertically (if applicable) */
+    gap: 250px;
+    /* Adds spacing between the items */
+    padding: 140px 20px 10px;
+    /* Optional: Adds padding around the footer */
+    background-color: none;
+    /* Optional: Footer background color */
+    font-family: "Bellota Text", sans-serif;
+}
+
+.footer h3,
+.footer a {
+    margin: 0;
+    /* Removes default margin from h3 and anchor */
+    font-size: 20px;
+    /* Ensures uniform font size */
+    font-weight: lighter;
+    color: black;
+    /* Optional: Text color */
+    text-decoration: none;
+    /* Removes underline from the link */
+}
 
  
