@@ -10,7 +10,7 @@ body {
     font-family: "Bellota Text", sans-serif;
     font-weight: 300;
     font-style: normal;
-    font-size: 20px;
+    font-size: 35px;
     font-weight: bold;
     text-align: center;
     padding-right: 10px;
@@ -46,7 +46,7 @@ nav a:hover {
 .img {
     border-radius: 400px;
     /* Makes the image circular */
-    width: 150px;
+    width: 250px;
     margin: 0 auto;
     /* Centers the image horizontally */
     display: block;
@@ -57,7 +57,7 @@ nav a:hover {
 
 #policyText {
     font-family: "Bellota Text";
-    font-size: 45px;
+    font-size: 55px;
     text-align: center;
     margin-top: 40px;
 }
@@ -66,7 +66,7 @@ nav a:hover {
 
 #bookText {
     font-family: "Bellota Text";
-    font-size: 26px;
+    font-size: 40px;
     text-align: center;
     margin: 50px;
     font-weight: normal;
@@ -81,11 +81,34 @@ nav a:hover {
 .bookingContainer {
     background-color: #c8b1e0c0;
     margin: auto;
-    width: 750px;
+    width: 900px;
     text-align: center;
     font-family: "Bellota Text";
     font-weight: lighter;
-    font-size: 20px;
+    font-size: 30px;
+    word-wrap: break-word;
+    vertical-align: middle;
+    padding: 40px 20px;
+    line-height: 2;
+    align-items: center;
+}
+
+#depositText {
+    font-family: "Bellota Text";
+    font-size: 40px;
+    text-align: center;
+    margin: 50px;
+    font-weight: normal;
+}
+
+.depositContainer {
+    background-color: #c8b1e0c0;
+    margin: auto;
+    width: 900px;
+    text-align: center;
+    font-family: "Bellota Text";
+    font-weight: lighter;
+    font-size: 30px;
     word-wrap: break-word;
     vertical-align: middle;
     padding: 40px 20px;
@@ -95,7 +118,7 @@ nav a:hover {
 
 #cxlText {
     font-family: "Bellota Text";
-    font-size: 25px;
+    font-size: 40px;
     text-align: center;
     margin: 50px;
     font-weight: normal;
@@ -104,11 +127,11 @@ nav a:hover {
 .cxlContainer {
     background-color: #d0b9e9f0;
     margin: auto;
-    width: 750px;
+    width: 900px;
     text-align: center;
     font-family: "Bellota Text";
     font-weight: lighter;
-    font-size: 20px;
+    font-size: 30px;
     word-wrap: break-word;
     vertical-align: middle;
     padding: 40px 20px;
@@ -118,7 +141,7 @@ nav a:hover {
 
 #paymentText {
     font-family: "Bellota Text";
-    font-size: 25px;
+    font-size: 50px;
     text-align: center;
     margin: 50px;
     font-weight: normal;
@@ -128,11 +151,11 @@ nav a:hover {
 .payContainer {
     background-color: #dcc4f5dd;
     margin: auto;
-    width: 750px;
+    width: 900px;
     text-align: center;
     font-family: "Bellota Text";
     font-weight: lighter;
-    font-size: 20px;
+    font-size: 30px;
     word-wrap: break-word;
     vertical-align: middle;
     padding: 40px 20px;
@@ -171,13 +194,16 @@ nav a:hover {
 .footer a {
     margin: 0;
     /* Removes default margin from h3 and anchor */
-    font-size: 20px;
+    font-size: 35px;
     /* Ensures uniform font size */
     font-weight: lighter;
     color: black;
     /* Optional: Text color */
     text-decoration: none;
     /* Removes underline from the link */
+}
+.footer a:hover {
+    color: #7B16D6;       /* Optional: Changes color on hover */
 }
 
 /* Media Queries */

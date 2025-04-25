@@ -155,8 +155,13 @@ nav a:hover {
 .footer h3,
 .footer a {
     margin: 0;
-    font-size: 13px;
+    font-size: 20px;
 
+
+}
+
+.footer a:hover {
+    color: #7B16D6;       /* Optional: Changes color on hover */
 }
 
 @media only screen and (max-width: 414px) {

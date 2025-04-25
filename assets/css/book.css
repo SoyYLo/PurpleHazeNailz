@@ -153,12 +153,6 @@ width: 200px;
     
   }
 
-  .cardD {
-    float: right;
-    padding-right: 900px;
-    
-  }
-
   .addOnList {
     list-style-type:circle;
   }
@@ -197,6 +191,9 @@ width: 200px;
     /* Optional: Text color */
     text-decoration: none;
     /* Removes underline from the link */
+}
+.footer a:hover {
+  color: #7B16D6;       /* Optional: Changes color on hover */
 }
 
  
