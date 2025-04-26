@@ -53,8 +53,8 @@ nav a:hover {
 
 .gridContainer {
   display: grid;
-  grid-template-columns: auto auto auto;
-  row-gap: 20px;
+  grid-template-columns: repeat(3, 1fr); /* equal-width columns */
+  gap: 20px;
   column-gap: 20px;
   justify-content: center; /* centers the grid items inside the container */
   align-items: center;
@@ -63,11 +63,13 @@ nav a:hover {
   }
   
   .gridContainer > img {
-    background-color: none;
+    width: 250px;
+    height: 250px;
+    object-fit: cover; /* makes sure image fills space evenly */
     border: 1px solid black;
     font-size: 30px;
     text-align: center;
-    width: 250px;
+    display: block; /* removes bottom space from inline elements */
   }
 
   .serviceContainer {
