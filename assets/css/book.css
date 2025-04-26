@@ -98,50 +98,38 @@ nav a:hover {
   }
 
   .column {
-    margin: auto;
-    align-items: center;
-    padding: 40px 40px;
+    display: flex;
+    margin: 0px 211px;
+    justify-content: center;
+    padding: 20px;
   }
   .card {
-    background-color: #D3B1F7;
-    height: 250px;
-    font-family: "Bellota Text";
-    box-sizing: border-box;
-    align-content: flex-start;
-    margin: auto;
+    display: flex;
+  align-items: center; /* vertically center content */
+  background-color: #D3B1F7;
+  height: 250px;
+  font-family: "Bellota Text";
+  box-sizing: border-box;
+  padding: 20px;
+  gap: 20px;
+  width: 989px;
   }
 
-  article img {
-    max-width: 250px;
-    max-height: 250px;
-   margin-top: 20px;
-    
-  }
-  
+
 .img {
-    max-width: 200px;
-    max-height: 200px;
-   margin-top: 20px;
-   padding-left: 20px;
+  max-width: 200px;
+  max-height: 200px;
+  object-fit: cover;
 }
-  .cardText {
-    padding-right: 1000px;
-    float: right;
-  }
-
-  .cardA {
-    padding-right: 900px;
-    float: right;
-  }
-
-  .cardB {
-    float: right;
-    padding-right: 550px;
-    
+  .cardA, .cardB, .cardText {
+    flex: 1;
+    text-align: left;
+    line-height: 1.6;
   }
 
   .addOnList {
     list-style-type:circle;
+    padding-left: 20px;
   }
 
 
