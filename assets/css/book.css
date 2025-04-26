@@ -1,7 +1,7 @@
 body {
     height: 100%;
-    width: 100%;
     background-image: linear-gradient(#8A7B99, #E5CDFF);
+    place-content: center;
 }
 
 .navBar {
@@ -31,14 +31,9 @@ nav a:hover {
 }
 
 .bio {
-    width: 40%;
-    height: 50%;
     font-family: "Bellota Text", sans-serif;
     padding-top: 90px;
-    float: left;
     text-align: center;
-    margin-left: 110px;
-    padding-left: 10px;
 }
 
 .header {
@@ -46,29 +41,25 @@ nav a:hover {
 }
 
 .aboutMe {
-    font-size: 20px;
-    padding-top: 40px;
+    font-size: 25px;
 }
 
 
 .profileImg {
     width: 300px;
     border-radius: 170px;
-    float: right;
-    margin-top: 90px;
-    margin-right: 110px;
-
+    
 }
 
 .gridContainer {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    background-color: none;
-    width: 100%;
-    row-gap: 20px;
-    align-items: center;
-    padding: 100px;
-    margin: 0 50px 0 50px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  row-gap: 20px;
+  column-gap: 20px;
+  justify-content: center; /* centers the grid items inside the container */
+  align-items: center;
+  margin: 0 auto; /* centers the container on the page */
+  width: fit-content; /* or set a specific width if needed */
   }
   
   .gridContainer > img {
@@ -76,16 +67,12 @@ nav a:hover {
     border: 1px solid black;
     font-size: 30px;
     text-align: center;
-    width: 200px;
-  }
-
-  .greenFrench {
-width: 200px;
+    width: 250px;
   }
 
   .serviceContainer {
     background-color: #D3B1F7;
-    margin: auto;
+    margin: 50px auto;
     width: 950px;
     height: 350px;
     text-align: center;
@@ -125,8 +112,8 @@ width: 200px;
   }
 
   article img {
-    max-width: 200px;
-    max-height: 200px;
+    max-width: 250px;
+    max-height: 250px;
    margin-top: 20px;
     
   }
